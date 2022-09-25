@@ -237,20 +237,20 @@
     border: none;
     Width: 157px;
     Height: 47px;
-
-
     background: #FF7400;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
-
-
     color: #FFFFFF;
 }
 
+.hs-order button:hover {
+    background-color: #FFFFFF;
+    color: #FF7400;
+    transition: all .6s;
+}
 
 .hs-order {
     display: flex;
@@ -350,6 +350,7 @@
 
 
 .bs-card button {
+    padding: 14px 68px 14px 68px;
     border: none;
     font-family: 'Open Sans';
     font-style: normal;
@@ -359,6 +360,13 @@
     text-align: center;
     color: #FFFFFF;
     background: #D67E34;
+}
+
+
+.bs-card button:hover {
+    background-color: #FFFFFF;
+    color: #FF7400;
+    transition: all .6s;
 }
 
 
@@ -420,7 +428,6 @@
     display: flex;
     gap: 27px;
 }
-
 
 .review {
     padding: 104px 0 104px 0;
@@ -490,8 +497,5 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center
 }
-
-
-.center {}
